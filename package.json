@@ -1,0 +1,26 @@
+{
+  "name": "dns_server",
+  "version": "1.0.0",
+  "description": "Um servidor DNS simples implementado em Node.js que responde a consultas DNS usando o protocolo UDP.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch src/server/server.ts"
+  },
+  "keywords": [
+    "Node.js",
+    "TypeScript",
+    "DNS"
+  ],
+  "author": "Walisson (Sileniz)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dns-packet": "^5.6.5",
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dns-packet": "^5.6.1",
+    "redis": "^4.7.0"
+  }
+}
